@@ -1,0 +1,171 @@
+@use "home";
+@import "home";
+.shadow-element {
+    position: absolute;
+    background-color: #ebebeb;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+.sq-shadow {
+    top: 640px;
+    right: 150px;  
+    animation-name: rotate;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.circle-shadow {
+    border-radius: 100%;
+    transform: scale(6.5);
+    
+}
+#Work {
+    position:relative;
+    padding-bottom: 80px;
+}
+
+ #Work_landing,#Works, #Work_wrap  {
+    @include home.flex();
+    height: 100vh;
+    width: 100vw;
+}
+.show_project {
+    opacity: 1;
+    transition: opacity ease 0.3s;
+}
+#Work_landing {
+    h1 {
+        font-size:5rem;
+    }
+    p {
+        font-weight: 500;
+    }
+}
+#Works {
+    height: fit-content;
+    gap:45px;
+    padding-bottom: 150px;
+    #Work_wrap {
+        gap:40px;
+    }
+    
+    .Project {
+        cursor: pointer;
+        width: 80%;
+        img {
+            width:100%;
+        }
+        .Content {
+            text-align: left;
+            font-size: 0.9rem;
+            word-break: break-all;
+            h3, p {
+                color: $Primary !important;
+
+            }
+        }
+        .image_wrap {
+            .Content {
+                display: none;;
+            }
+        }
+    }
+}
+#under_construction {
+    @include home.flex();
+    width:100vw;
+    height: 100vh;
+    .wrapper {
+        
+        height:50%;
+    }
+    
+}
+@media(min-width:768px) {
+    #Work_landing {
+        h1 {
+            font-size: 8rem;;
+        }
+    }
+    #Works {
+        #Work_wrap {
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 90%;
+            justify-content: flex-start;
+            gap: 40px;
+            height: fit-content;
+        }
+        .Project {
+            width: 46%;
+        }
+    }
+}
+@media(min-width: 1280px) {
+    #Works {
+        .Project {
+            .Content {
+                
+                display: none;
+                font-size:2rem;
+            }
+            .image_wrap {
+                @include home.flex();
+                position: relative;
+                width:100%;
+                height:100%;
+                .Content {
+                    @include home.flex();
+                    display: flex  !important;
+                    position: absolute;
+                    top:50%;
+                    z-index: 2;
+                    opacity: 0;
+                    transition: opacity ease 0.3s;
+                    h3 {
+                        color: white !important;
+                    }
+                    p {
+                        color:white !important;
+                        font-size: 1rem;
+                        max-width: 80%;
+                        word-break: normal;
+                    }
+                }
+                &::after {
+                    content:"";
+                    position:absolute;
+                    left:0;
+                    top:0;
+                    width:100%;
+                    height: 100%;
+                    z-index: 1;
+                    background-color: rgb(12 12 12 / 77%);;
+                    opacity: 0;
+                    transition: opacity ease 0.3s;
+                };
+                &:hover{
+                    .Content {
+                        opacity: 1;
+                        transition: opacity ease 0.3s;
+                    }
+                    
+                    &::after { 
+                        opacity: 1;
+                        transition: opacity ease 0.3s;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
