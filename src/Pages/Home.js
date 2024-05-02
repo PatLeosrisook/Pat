@@ -1,5 +1,5 @@
 
-import '../SCSS/home.css'
+import 'SCSS/home.css'
 import React from 'react'
 import 'animate.css';
 export function Home() {

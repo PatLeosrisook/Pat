@@ -1,5 +1,5 @@
 import { ProjectList } from "../Components/ProjectList";
-import '../SCSS/work.css'
+import 'SCSS/work.css'
 import {details} from '../Components/ProjectDetails'
 import 'animate.css';
 
