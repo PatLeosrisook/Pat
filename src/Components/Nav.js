@@ -1,5 +1,5 @@
 import { BurgerClose } from "react-burger-icons";
-import '../SCSS/home.css'
+import 'SCSS/home.css'
 import { NavHashLink } from 'react-router-hash-link';
 export function Nav({setTab, isTabOpen}) {
     let handleClose = () => {

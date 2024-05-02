@@ -1,4 +1,4 @@
-import '../SCSS/home.css'
+import 'SCSS/home.css'
 import { useEffect } from 'react';
 import { NavHashLink} from 'react-router-hash-link';
 export function Links({ setTab,isTabOpen}) {
@@ -7,29 +7,7 @@ export function Links({ setTab,isTabOpen}) {
         setTab(!isTabOpen)
     }
     useEffect(() => {
-        // console.log(nextPath)
-        // try{
-        //     if((HomeRef.current && AboutRef.current && ContactRef.current)) {
-        //       if(nextPath == '/') {
-        //         window.scrollTo({top: 0, behavior: "smooth"})
-        //       } else if(nextPath == "/About") {
-        //         if(AboutRef.current) {
-        //           AboutRef.current.scrollIntoView({behavior: 'smooth'})
-        //         } 
-        //       } else if(nextPath=='/Contact') {
-        //         if(ContactRef.current) {
-        //           ContactRef.current.scrollIntoView({behavior: 'smooth'})
-        //         } else {
-        //           console.log(ContactRef)
-        //         }
-        //       } else {
-        //         window.scrollTo({top: 0, behavior: "smooth"})
-        //       }
-        //     }
-      
-        //   } catch(e) {
-        //     console.log("NOt load")
-        //   }
+     
         
     })
     return (

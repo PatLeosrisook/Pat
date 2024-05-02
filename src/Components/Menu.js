@@ -1,5 +1,5 @@
 
-import { Links } from "./Links";
+import { Links } from "Links";
 
 export function Menu({HomeRef, AboutRef,ContactRef, setTab, isTabOpoen, nextPath, setNextPath, isLoading, setIsLoading}) {
     return(
