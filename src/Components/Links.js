@@ -1,4 +1,4 @@
-import 'SCSS/home.css'
+import '../SCSS/home.css'
 import { useEffect } from 'react';
 import { NavHashLink} from 'react-router-hash-link';
 export function Links({ setTab,isTabOpen}) {

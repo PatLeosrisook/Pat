@@ -1,4 +1,4 @@
-import { Project } from "Project";
+import { Project } from "./Project";
 import 'animate.css';
 
 export function ProjectList({lists}) {

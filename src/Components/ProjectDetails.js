@@ -1,7 +1,7 @@
-import dictionary from 'assets/Img/dictionaryMockup.jpg'
-import age from 'assets/Img/AgeCalcMockup.jpg'
-import form from 'assets/Img/MultiFormMockup.jpg'
-import generator from 'assets/Img/PassGenMockup.jpg'
+import dictionary from '../assets/Img/dictionaryMockup.jpg'
+import age from '../assets/Img/AgeCalcMockup.jpg'
+import form from '../assets/Img/MultiFormMockup.jpg'
+import generator from '../assets/Img/PassGenMockup.jpg'
 export const details = [
     {
         id: "dictionary",

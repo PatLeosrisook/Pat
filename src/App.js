@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 import 'App.css';
-import 'SCSS/home.css'
-import { Home } from 'Pages/Home';
-import { Nav } from 'Components/Nav';
+import './SCSS/home.css'
+import { Home } from './Pages/Home';
+import { Nav } from './Components/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub , faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import {  useEffect, useState } from 'react';
 import {Route, Routes, useLocation} from 'react-router-dom'
-import { Menu } from 'Components/Menu';
-import {Work} from 'Pages/Work'
+import { Menu } from './Components/Menu';
+import {Work} from './Pages/Work'
 import {  useScroll } from '@react-spring/web'
 function App() {
   let location = useLocation()
