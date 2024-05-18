@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Pat/static/css/main.e6493ddf.css",
+    "main.js": "/Pat/static/js/main.4cdb1a67.js",
+    "static/js/787.1d602832.chunk.js": "/Pat/static/js/787.1d602832.chunk.js",
+    "static/media/dictionaryMockup.jpg": "/Pat/static/media/dictionaryMockup.5e1e8b44d97acd708404.jpg",
+    "static/media/MultiFormMockup.jpg": "/Pat/static/media/MultiFormMockup.c727110a732519b7e809.jpg",
+    "static/media/PassGenMockup.jpg": "/Pat/static/media/PassGenMockup.e5f7905eec21ce959f3d.jpg",
+    "static/media/AgeCalcMockup.jpg": "/Pat/static/media/AgeCalcMockup.6f9312ed1c1ff9c96712.jpg",
+    "static/media/logo_desktop.svg": "/Pat/static/media/logo_desktop.cb222c7375e8c3a79052.svg",
+    "static/media/logo_mobile.svg": "/Pat/static/media/logo_mobile.b5c0dbd14010c4ea3fc3.svg",
+    "index.html": "/Pat/index.html",
+    "main.e6493ddf.css.map": "/Pat/static/css/main.e6493ddf.css.map",
+    "main.4cdb1a67.js.map": "/Pat/static/js/main.4cdb1a67.js.map",
+    "787.1d602832.chunk.js.map": "/Pat/static/js/787.1d602832.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6493ddf.css",
+    "static/js/main.4cdb1a67.js"
+  ]
+}
