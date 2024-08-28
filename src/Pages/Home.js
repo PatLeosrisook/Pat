@@ -30,7 +30,7 @@ export function Home() {
                         <div id="Paragraphs">
                             <p>I'm a frontend developer based in Bangkok, Thailand. I'm 25 years old and <strong>graduated from the University of Birmingham, UK, in 2020 with a Computer Science degree.</strong> During my last year at university, I was introduced to UX/UI design through one of the courses, this led to  a deeper interest that result in me taking an additional courses on the subject. This passion has significantly influenced my approach in designing any of my other projects.</p>
                             <p><strong>I'm currently working at BSG group as an Administrator</strong>.</p>
-                            <p>In my spare time, I work on various personal projects that help practice my skills in frontend development. I also love reading books, particularly about personal development and sometime a novel.</p>
+                            <p>In my spare time, I work on various personal projects that help practice my skills in frontend development. I also love drawing and reading books, particularly about personal development and sometime a novel.</p>
                         </div>
                     </div>
                     <div id="Skills_list">
