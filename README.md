@@ -1,5 +1,5 @@
-# About this project
-It's my personal portfolio where I put all my other works in here (that is not on my resume). 
+
+Hello there! Welcome to the source code of my personl website. Feel free to roam around :)
 
 ## Technologies 
 - HTML
